@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google</title>
+	<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- jQuery 최신버전을 호출 해줘야 아래 boostrap javascript가 동작을 함. 3.0 버전은 안됨-->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+	.container{
+		margin-top:5%;}
+	#gb {
+		float: right;
+		display:inline-block;
+		margin-top:-55px;  
+		margin-right:-100px;
+	}
+	#gb a{
+		color: #000;
+		text-decoration: none;}
+	.dropdown{
+		 list-style: none;
+		 display: inline-block;
+	}
+
+	#lga{
+		height: 246px;
+		margin-top: 60px;
+		text-align:center;
+	}
+	#logo-sub{
+		position: relative; left: 125px; top: -20px;
+		color: #4285f4;
+		font-size: 16px;
+	}
+	.form{
+		display: block;
+		margin-top: 0em;
+	}
+	#search{
+		padding:8px;
+		border color: gray; 
+		color: gray;
+		width:600px;
+		position: relative;
+    	top: 2px;
+    	margin: 0 auto;
+	}
+	#search span{
+		position: absolute;
+		left: 645px;
+		top: 13px;
+	}
+	.row{
+		margin-left: 270px;
+		margin-top: -30px;
+	}
+	.row2{
+		margin-left: 270px;
+
+	}
+	div{display: block;}
+</style>
+
+		
+</head>
+<body>
+	<div class="container">
+		<!--우측 상단-->
+		<div id="gb">
+		<a style="margin:7px" href="https://mail.google.com/">Gmail</a>
+		<a style="margin:10px" href="www.google.com">Images</a>
+        <li role="presentation" class="dropdown">
+		    <a class="dropdown-toggle" data-toggle="dropdown" 
+		    href="https://www.google.com/" role="button" aria-expanded="false">
+		    <span class="glyphicon glyphicon-th" aria-hidden="true" style="color:gray"></span>
+		     <span class="caret"></span>
+		    </a>
+		    <ul class="dropdown-menu" role="menu">
+            	 <li>
+            	  <img src="images/my.png" alt="myaccount">내계정
+            	  </li>
+            	 <li>
+            	 <img src="images/searching.png" alt="search">검색
+            	 </li>
+            	 <li>
+            	 <img src="images/map.png" alt="map">지도
+            	 </li>
+            	 <li>
+            	 <img src="images/youtube.png" alt="youtube">Youtube
+            	 </li>
+            	 <li>
+            	 <img src="images/play.png" alt="play">Play
+            	 </li>
+            	 <li>
+            	 <img src="images/gmail.png" alt="Gmail">Gmail
+            	 </li>
+            	 <li>
+            	 <img src="images/drive.png" alt="drive">드라이브
+            	 </li>
+            	 <li>
+            	 <img src="images/calendar.png" alt="calendar">캘린더
+            	 </li>
+			</ul>
+		  </li>
+		<a href="https://accounts.google.com/">
+        <button type="button" class="btn btn-primary" style="margin-left:8px">로그인</button>
+        </a>
+		</div>
+		<!--구글 로고-->
+		<div class id="lga">
+			<img src="images/googlelogo.png" width="272" height="92" alt="google logo" title="Google">
+			<div id="logo-sub">New Zealand</div>
+			<!--검색창-->
+			<form>
+			<div class id="search">
+		     <input type="text" size="90" name="search" placeholder=" Google 검색 또는 URL 입력" style="height:36px" width="672px" title="검색">
+			<span class="class">
+			<img src="images/icon.png" height="27px" alt="voice searching" title="음성검색">
+			</span>
+			</div>
+			</form>
+		<!--하단 썸네일 링크-->
+		</div>
+		<div class="row">
+		  <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="www.naver.com" class="thumbnail" title="NAVER">
+		      <img src="images/naver.png" alt="NAVER">
+		    </a>
+		  </div>
+		   <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="http://bootstrapk.com/" class="thumbnail" title="BOOTSTRAP">
+		      <img src="images/부트스트랩.png" alt="BOOTSTRAP">
+		    </a>
+		  </div>
+		   <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="www.google.com" class="thumbnail" title="Google">
+		      <img src="images/google.png" alt="google">
+		    </a>
+		  </div>
+		   <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="https://opentutorials.org" class="thumbnail" title="생활코딩">
+		      <img src="images/생활코딩.png" alt="생활코딩">
+		    </a>
+		  </div>
+  		</div>
+  		<div class="row2">
+		  <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="https://github.com/" class="thumbnail" title="GITHUB">
+		      <img src="images/github.png" alt="GITHUB">
+		    </a>
+		  </div>
+		   <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="http://bootstrapk.com/" class="thumbnail" title="BOOTSTRAP">
+		      <img src="images/부트스트랩.png" alt="BOOTSTRAP">
+		    </a>
+		  </div>
+		   <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="www.google.com" class="thumbnail" title="Google">
+		      <img src="images/google.png" alt="google">
+		    </a>
+		  </div>
+		   <div style="width:170px" class="col-xs-6 col-md-3">
+		    <a href="https://opentutorials.org" class="thumbnail" title="생활코딩">
+		      <img src="images/생활코딩.png" alt="생활코딩">
+		    </a>
+		  </div>
+  		</div>
+
+	</div>
+	
+</body>
+</html>
