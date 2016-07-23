@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UFT-8">
+	<style>
+	/*1. 컨데이너 기준 가운데 정렬 너비*/
+		.container{
+			width: 100%; margin: 0 auto;}
+	/*2.컨데이너 안의 div높이*/		
+		.container div{height: 100px;}
+	/*3.각 div 너비 색지정*/	
+		.container .row1{
+			width: 100%; 
+			background-color: green;
+		}
+		.container .row2{
+			width: 31%; 
+			margin-right: 5px;
+			background-color: blue;
+			float: left;
+		}
+		.container .row3{
+			width: 16.14%; 
+			margin-right: 5px;
+			background-color: yellow;
+			float: left;
+		}	
+		.clearfix{clear:both;}
+	</style>
+		
+</head>
+<body>
+	<div class="container">
+		<section>
+			<div class="row1"></div>
+		</section>
+		<section>
+			<div class="row2"></div>
+			<div class="row2"></div>
+			<div class="row2"></div>
+		</section>
+		<section>
+			<div class="row3"></div>
+			<div class="row3"></div>
+			<div class="row3"></div>
+			<div class="row3"></div>
+			<div class="row3"></div>
+			<div class="row3"></div>
+		</section>
+	</div>
+</div>
+
+
+
+</body>
+</html>
