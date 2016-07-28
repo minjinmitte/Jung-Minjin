@@ -1,0 +1,195 @@
+*{padding: 0; margin: 0; font-family: 'arial' '돋움';}
+.logo{width: 10%;}
+.logo img{width: 100%;}
+.menu #gnb{list-style: none; line-height: 2.5;}
+.menu #gnb li{float: left; padding:0 10px;}
+.menu #gnb li a{font-size: 14px; text-decoration: none;}
+
+header{margin:20px 0;}
+
+.title h3{
+	text-align: center;
+	font-size:26px;
+	padding:20px;
+	line-height: 150%; 
+	}
+
+.about-us{width: 100%; margin-bottom: 40px;}
+.about-us h6{
+	font-weight: bold;
+	text-align: center; 
+	font-size: 18px;}
+
+.about-us img{
+	width: 49%; 
+	height: 170px;
+	float: left;
+	margin-right: 30px;
+}
+
+.about-us p{
+	text-align: justify; 
+	font-size: 12px;
+	padding-left: 20px;
+	}
+
+
+.philosophy{width: 100%;}
+.philosophy h6{
+	font-weight: bold;
+	text-align: center; 
+	font-size: 18px;
+}
+
+.philosophy img{
+	width: 49%; 
+	margin-left: 30px;
+	float: right;
+}
+
+.philosophy .exp{
+	text-align: justify; 
+	font-size: 12px;
+}
+
+.philosophy .mission-txt{
+	color: #caaf97;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+	margin-top:10px;
+	margin-bottom: 5px;
+}
+
+.philosophy .mission-sub{
+	font-size: 35px;
+  	text-align: right;
+    line-height: 120%;
+    margin-top: 5px;
+}
+
+.philosophy .spirit-txt{
+	color: #caaf97;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+	margin-top:10px;
+	margin-bottom: 5px;
+}
+
+.philosophy .spirit-sub{
+	font-size: 35px;
+  	text-align: right;
+    line-height: 120%;
+    margin-top: 5px;
+}
+
+.division{width: 100%; margin-top: 40px;}
+.division h6{
+	font-weight: bold;
+	text-align: center; 
+	font-size: 18px;
+}
+.division .odm-service{
+	font-size: 35px;
+  	text-align: center;
+  	margin-top: 30px;
+}
+.division .sub-txt{
+	color: #cc874a;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 40px;
+}
+
+.servicebox1, .servicebox2, .servicebox3{
+	float: left; 
+	padding-right: 30px; 
+	position: relative;
+	text-align: center;
+}
+
+.servicebox1 .one{
+	position: absolute;
+	top: 80px;
+	left: 37px;
+}
+.servicebox2 .two{
+	position: absolute;
+	top: 80px;
+	left: 20px;
+}
+.servicebox3 .three{
+	position: absolute;
+	top: 80px;
+	left: 25px;
+}
+
+.service-full{margin-left: 170px; margin-bottom: 60px;}
+
+.line{
+	border-bottom: 1px solid lightgray;
+}
+
+.overlay{background-color: #000; opacity: 0.3; 
+		position: absolute; width: 100%; height: 100%;
+		top:0; z-index: 2;}
+
+.office h6{
+	font-weight: bold;
+	text-align: center; 
+	font-size: 18px;
+}
+
+.office img{width: 100%;}
+.no-padding{padding: 0;}
+
+.office .office-add{
+	position: absolute; 
+	top: 0; 
+	width: 100%; 
+	z-index: 3;
+	text-align: left;
+} 
+
+.office .office-add #title{
+	font-size: 25px;
+	color: white;
+	margin: 30px 0 20px 10px; 
+	margin-top: 30px;
+}
+
+.office .office-add #desc{
+	font-size: 12px;
+	color: white;
+	margin-left: 10px;
+}
+.office .office-add #desc2{
+	font-size: 12px;
+	color: #eabe97;
+	margin-left: 10px;
+}
+
+footer{margin: 20px 0 20px 0; }
+.bottom-bar{
+	width: 100%;
+	height: 40px;
+	background-color: lightgray;
+}
+
+.bottom-bar .logo{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	line-height: 2.2;
+	margin-left: 15px;
+	margin-right: 25px;
+}
+.bottom-bar .copyright{
+	color: white;
+	font-size: 12px;
+	line-height: 3.5;
+}

@@ -1,0 +1,35 @@
+*{padding: 0; margin: 0; font-family: 'arial' '돋움';}
+.logo{width: 10%;}
+.logo img{width: 100%;}
+.menu #gnb{list-style: none; line-height: 2.5;}
+.menu #gnb li{float: left; padding:0 10px;}
+.menu #gnb li a{font-size: 14px; text-decoration: none;}
+
+header{margin:20px 0;}
+
+.carousel-caption{bottom: 100px;}
+.carousel-caption .caption-title{font-size: 50px; font-weight: bold;}
+.carousel-caption .caption-desc{font-size: 24px;}
+
+.hidden{display:none;}
+.overlay{background-color: #000; opacity: 0.5; 
+		position: absolute; width: 100%; height: 100%;
+		top:0; z-index: 2;}
+
+.no-padding{padding: 0;}
+.image-menu img{width: 100%;}
+.image-menu .image-menu-desc{position: absolute; top: 0; width: 100%; cursor: pointer;}
+.quick:hover .overlay{display: block!important;}
+.image-menu .image-menu-desc .text{color: #fff; font-size: 14px; }
+.image-menu .image-menu-desc #title{margin-top: 50px;}
+.image-menu .image-menu-desc #desc{margin-top: 100px;}
+
+.sitemap ul{list-style: none;}
+.sitemap > ul > li{float: left; 
+					padding: 20px; border: 1px solid #ddd;
+				    width: 16.66%;
+					border-right: none;}
+
+.sitemap > ul > li:last-child{border-right: 1px solid #ddd;}
+
+footer{margin-top:20px; }
