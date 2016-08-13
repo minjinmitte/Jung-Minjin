@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UFT-8">
+	<title></title>
+	
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="js/jquery-1.12.4.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+	div{
+		border: 2px solid black;
+		padding: 20px;
+		margin:10px;
+	}
+	
+</style>
+<script type="text/javascript">
+	$(function(){
+		$('.body').css('border', '2px solid red');
+		$('.body').append($('.header'));
+	});
+</script>
+</head>
+
+<body>
+	<div class="container">
+	<div class="header">
+		header
+	</div>
+	<div class="body">
+		body
+		<div class="child">child 1</div>
+		<div class="child">child 2</div>
+		<div class="child">child 3</div>
+	</div>
+	<div class="footer">footer</div>
+</div>
+
+
+
+</body>
+</html>

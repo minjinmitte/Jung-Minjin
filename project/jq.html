@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+
+
+<script>
+	$(function(){
+		$('#div1').css('border', '1px solid red')
+		$('#div3').append($('#div2'))//div3에 div2를 붙이겠다.
+		$('#div1').click(function(){
+			alert(1);
+		})
+	});
+
+</script>
+
+</head>
+<body>
+	<div id="div1">a</div>
+	<div id="div2">b</div>
+	<div id="div3">c</div>
+</body>
+</html>
