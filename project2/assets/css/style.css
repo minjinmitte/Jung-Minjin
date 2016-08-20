@@ -1,9 +1,7 @@
-*{margin:0; padding: 0;}
+*{margin:0; padding:0 font-family:'arial'}
 
-.login_form{
-	width: 500px;
-	margin:15% auto;
-}
+#login #form_login, #form_signup{position:relative; margin:15% auto; width:500px;}
 
-/*.login_form .failed_form{display: none;}
-.login_form .confirmed_form{display: none;}
+#confirmed_form, #failed_form{display:none;}
+
+#message_box .alert{display:none;}
